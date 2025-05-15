@@ -79,5 +79,8 @@ public class Pacientes {
 		this.telefono_dueño = telefono_dueño;
 	}
 	
-
+public String datosD() {
+	return("El nombre del dueño es: "+nombres_dueño+\n
+	       +"su direccion es: "+direccion+\n+"Telefono es: "+telefono_dueño)}
+}
 }
