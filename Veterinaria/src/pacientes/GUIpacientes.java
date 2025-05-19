@@ -62,4 +62,12 @@ public class GUIpacientes extends JFrame {
 		contentPane.add(textField_1);
 		textField_1.setColumns(10);
 	}
+
+	
+	void Imprimir (String s) {
+		txtS.append(s+"\n");
+	}
+	void Imprimir() {
+		txtS.append("***********");
+	}
 }
