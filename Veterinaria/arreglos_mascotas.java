@@ -12,6 +12,12 @@ public class Arreglo_mascotas {
 		masco=new ArrayList<Mascota>();
 		
 	}
-	
+	public void Adicionar(Mascota x) {
+		masco.add(x);
+	}
+	public int Tamaño() {
+		return masco.size();
+	}
+
 	
 }
